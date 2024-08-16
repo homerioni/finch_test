@@ -1,0 +1,50 @@
+@import "src/assets/scss/param";
+
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+  width: 8.2rem;
+  height: 8.2rem;
+  font-size: 2.8rem;
+  line-height: 4rem;
+  cursor: pointer;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border: 1px solid #DDDDDD;
+    border-radius: 1rem;
+    transition: all .25s ease;
+  }
+
+  &.active:before {
+    transform: scale(.8);
+    border: 1px solid $yellow;
+    background-color: $yellow;
+  }
+}
+
+@media (min-width: 48.01em) {
+  .btn {
+    width: 6rem;
+    height: 6rem;
+    font-size: 2rem;
+    line-height: 3rem;
+
+    &:before {
+      border-radius: .8rem;
+    }
+
+    &:hover:before {
+      border: 1px solid $yellow;
+    }
+  }
+}

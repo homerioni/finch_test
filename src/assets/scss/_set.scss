@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', serif; // шрифт по умолчанию по сайту
+    font-size: calc((100/375) * 5vw); // где 375 это ширина моб версии макета
+    font-style: normal;
+    font-weight: normal;
+    -webkit-animation: bugfix infinite 1s;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-animation: bugfix infinite 1s;
+    margin: 0;
+    padding: 0;
+    color: black; // цвет по умолчанию текста по сайту
+    background: linear-gradient(0deg ,#4568DC, #B06AB3);
+    -webkit-text-size-adjust: none;
+}
+
+input,
+textarea {
+    -webkit-animation: bugfix infinite 1s;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+
+    &::placeholder {
+        color: #93A1B2;
+    }
+}
+a {
+    color: unset;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button,
+input,
+a,
+textarea {
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    &:focus {
+        outline: none;
+    }
+    &:active {
+        outline: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    padding: 0;
+    background-color: transparent;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+@media (min-width: 48.01em) {
+    html {
+        font-size: 0.5208335vw; // на разрешении 1920 0.520835vw === 10px
+        -webkit-text-size-adjust: auto;
+    }
+
+    body {
+        -webkit-text-size-adjust: auto;
+    }
+}

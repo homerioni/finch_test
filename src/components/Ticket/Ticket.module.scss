@@ -1,0 +1,56 @@
+@import "src/assets/scss/param";
+
+.main {
+  min-height: 75rem;
+  padding: 2.8rem 2.2rem 4.8rem 2.2rem;
+  border-radius: .6rem;
+  background-color: white;
+}
+
+.submit {
+  display: block;
+  padding: 2.6rem 4.8rem;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 10rem;
+  font-weight: 300;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+
+  &:not(:first-child) {
+    margin-top: 4.6rem;
+  }
+}
+
+.message {
+  padding: 0 .6rem;
+  font-weight: 200;
+  font-size: 2.8rem;
+  line-height: 4rem;
+}
+
+@media (min-width: 48.01em) {
+  .main {
+    min-height: 58rem;
+    width: 52.4rem;
+  }
+
+  .submit {
+    padding: 1.6rem 3.4rem;
+    font-size: 2rem;
+    line-height: 3rem;
+
+    &:not(:first-child) {
+      margin-top: 4.6rem;
+    }
+
+    &:hover {
+      border: 1px solid $yellow;
+    }
+  }
+
+  .message {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+}
