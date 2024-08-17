@@ -4,6 +4,7 @@ import TicketHeader from "../../UI/TicketHeader/TicketHeader";
 import TicketField from "../../UI/TicketField/TicketField";
 import {getNumbersFn} from "../../helpers/getNumbersFn";
 import {fetchData} from "../../helpers/fetchFn";
+import {onChangeField} from "../../helpers/changeField";
 
 const Ticket = () => {
     const [isLoading, setIsLoading] = useState(false);
@@ -11,22 +12,6 @@ const Ticket = () => {
     const [isShowResult, setIsShowResult] = useState(false);
     const [firstField, setFirstField] = useState<number[]>([]);
     const [secondField, setSecondField] = useState<number[]>([]);
-
-    const onChangeFirstField = (num: number) => {
-        if (firstField.includes(num)) {
-            setFirstField(prev => prev.filter(val => val !== num));
-        } else if (firstField.length < 8) {
-            setFirstField(prev => [...prev, num]);
-        }
-    };
-
-    const onChangeSecondField = (num: number) => {
-        if (secondField.includes(num)) {
-            setSecondField(prev => prev.filter(val => val !== num));
-        } else if (secondField.length < 1) {
-            setSecondField(prev => [...prev, num]);
-        }
-    };
 
     const showResult = async () => {
         if (firstField.length === 8 && secondField.length === 1) {
@@ -60,9 +45,14 @@ const Ticket = () => {
         setSecondField([]);
     };
 
+    const randomFieldFn = () => {
+        setFirstField(getNumbersFn(8, 19));
+        setSecondField(getNumbersFn(1, 2));
+    };
+
     return (
         <div className={s.main}>
-            <TicketHeader isShowResult={isShowResult} setFirstField={setFirstField} setSecondField={setSecondField} />
+            <TicketHeader isShowResult={isShowResult} randomFieldFn={randomFieldFn} />
             {isShowResult ? (
                 <>
                     <p className={s.message}>{isTicketWon ? "Ого, вы выиграли! Поздравляем!" : "К сожалению вы проиграли, но всегда можно отыграться!"}</p>
@@ -72,8 +62,20 @@ const Ticket = () => {
                 </>
             ) : (
                 <>
-                    <TicketField length={19} fieldName={"Поле 1"} fieldTask={"Отметьте 8 чисел"} fieldState={firstField} onChange={onChangeFirstField} />
-                    <TicketField length={2} fieldName={"Поле 2"} fieldTask={"Отметьте 1 число"} fieldState={secondField} onChange={onChangeSecondField} />
+                    <TicketField
+                        length={19}
+                        fieldName={"Поле 1"}
+                        fieldTask={"Отметьте 8 чисел"}
+                        fieldState={firstField}
+                        onChange={(num: number) => onChangeField(num, firstField, setFirstField, 8)}
+                    />
+                    <TicketField
+                        length={2}
+                        fieldName={"Поле 2"}
+                        fieldTask={"Отметьте 1 число"}
+                        fieldState={secondField}
+                        onChange={(num: number) => onChangeField(num, secondField, setSecondField, 1)}
+                    />
                     <button className={s.submit} type={"button"} onClick={showResult}>
                         {isLoading ? "Загрузка..." : "Показать результат"}
                     </button>

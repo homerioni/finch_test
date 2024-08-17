@@ -5,84 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="154bd0e0-82e5-49e7-844c-0409661b45e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/NumberBtn/NumberBtn.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/NumberBtn/NumberBtn.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/TicketField/TicketField.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/TicketField/TicketField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/TicketHeader/TicketHeader.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/TicketHeader/TicketHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-ThinItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-ThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-ThinItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_param.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_set.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ticket/Ticket.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ticket/Ticket.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/svgIcons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/fetchFn.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/getNumbersFn.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/changeField.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/TicketHeader/TicketHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/TicketHeader/TicketHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ticket/Ticket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ticket/Ticket.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/homerion/Desktop/projects/finch-test/src/assets/fonts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.lint.executor": "Run",
-    "npm.start.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "/Users/homerion/Desktop/projects/finch-test/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/homerion/Desktop/projects/finch-test/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/homerion/Desktop/projects/finch-test/src/assets/fonts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/homerion/Desktop/projects/finch-test/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/homerion/Desktop/projects/finch-test/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
@@ -183,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1723792696404</updated>
       <workItem from="1723792697503" duration="408000" />
-      <workItem from="1723793110479" duration="22941000" />
+      <workItem from="1723793110479" duration="24876000" />
+      <workItem from="1723915371254" duration="615000" />
     </task>
     <servers />
   </component>

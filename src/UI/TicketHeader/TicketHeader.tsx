@@ -1,20 +1,13 @@
-import React, {Dispatch, FC, SetStateAction} from "react";
+import React, {FC} from "react";
 import s from "./TicketHeader.module.scss";
 import icons from "../../constants/svgIcons";
-import {getNumbersFn} from "../../helpers/getNumbersFn";
 
 interface ITicketHeaderProps {
     isShowResult: boolean;
-    setFirstField: Dispatch<SetStateAction<number[]>>;
-    setSecondField: Dispatch<SetStateAction<number[]>>;
+    randomFieldFn: () => void;
 }
 
-const TicketHeader: FC<ITicketHeaderProps> = ({isShowResult, setSecondField, setFirstField}) => {
-    const randomFieldFn = () => {
-        setFirstField(getNumbersFn(8, 19));
-        setSecondField(getNumbersFn(1, 2));
-    };
-
+const TicketHeader: FC<ITicketHeaderProps> = ({isShowResult, randomFieldFn}) => {
     return (
         <div className={s.header}>
             <h2 className={s.title}>Билет 1</h2>
